@@ -1,9 +1,12 @@
 // rafce
-import React from 'react'
+import React, { useState } from 'react'
 
 const Formularios = () => {
 
-
+    // EStado de fruta
+    const [fruta, setFruta] = useState('')
+    // EStado de descripcion
+    const [descripcion, setDescripcion] = useState('')
 
 
 

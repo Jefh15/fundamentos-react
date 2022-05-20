@@ -14,17 +14,17 @@ function App() {
     <div className="container m-5 ">
       <h1>Hola Mundo React</h1>
       {/* Pinto el componente */}
-      <Parrafo />
+      {/* <Parrafo /> */}
       {/* Pinto el componente con JSX */}
-      <Variables />
+      {/* <Variables /> */}
       {/* Pinto el componente con HOOKS useState */}
-      <Eventos />
+      {/* <Eventos /> */}
       {/* Pinto el componente con Hooks useState de contador */}
-      <Contador />
+      {/* <Contador /> */}
       {/* Pinto el componente de listas y keys */}
-      <ListasANDKeys />
+      {/* <ListasANDKeys /> */}
       {/* Pinto el componente Operador de propagacion */}
-      <OperadorDePropagacion />
+      {/* <OperadorDePropagacion /> */}
       {/* Pinto el componente Formularios */}
       <Formularios />
     </div>
