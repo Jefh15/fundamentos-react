@@ -2,8 +2,11 @@
 import Contador from "./components/Contador";
 import Eventos from "./components/Eventos";
 import ListasANDKeys from "./components/ListasANDKeys";
+import OperadorDePropagacion from "./components/OperadorDePropagacion";
 import Parrafo from "./components/Parrafo";
 import Variables from "./components/Variables";
+
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
       <Contador />
       {/* Pinto el componente de listas y keys */}
       <ListasANDKeys />
+      {/* Pinto el componente Operador de propagacion */}
+      <OperadorDePropagacion />
     </div>
   );
 }
