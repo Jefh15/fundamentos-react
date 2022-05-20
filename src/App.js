@@ -1,16 +1,17 @@
 // importo el componente
 import Contador from "./components/Contador";
 import Eventos from "./components/Eventos";
+import Formularios from "./components/Formularios";
 import ListasANDKeys from "./components/ListasANDKeys";
 import OperadorDePropagacion from "./components/OperadorDePropagacion";
 import Parrafo from "./components/Parrafo";
 import Variables from "./components/Variables";
 
 
-
 function App() {
   return (
-    <div className="App">
+    // usando bootstrap
+    <div className="container m-5 ">
       <h1>Hola Mundo React</h1>
       {/* Pinto el componente */}
       <Parrafo />
@@ -24,6 +25,8 @@ function App() {
       <ListasANDKeys />
       {/* Pinto el componente Operador de propagacion */}
       <OperadorDePropagacion />
+      {/* Pinto el componente Formularios */}
+      <Formularios />
     </div>
   );
 }
