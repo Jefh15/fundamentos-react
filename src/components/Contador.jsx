@@ -37,6 +37,13 @@ const Contador = () => {
         <div>
             <h2>Contador</h2>
             <h3>Nuestro numero aumentando: {contador}</h3>
+            <h4>
+                {/* operador ternario ---> es un IF */}
+                {
+                    // evaluar ? exito : negativa
+                    contador > 2 ? "Es mayor a dos" : 'Es menor a dos'
+                }
+            </h4>
             {/* Creo el boton */}
             <button
                 onClick={() => aumentarContador()}
