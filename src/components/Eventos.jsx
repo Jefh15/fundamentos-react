@@ -1,5 +1,5 @@
 // rafce
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Eventos = () => {
 
@@ -12,7 +12,8 @@ const Eventos = () => {
 
 
     return (
-        <div>
+        // Esto es un fragment para poder meter mas de un componente <Fragment></Fragment>
+        <Fragment>
             <hr />
             <h2>Eventos</h2>
             {/* creo un boton */}
@@ -20,7 +21,7 @@ const Eventos = () => {
                 // llamo mi evento clic con una funcion de tipo flecha
                 onClick={() => eventoClick()}
             >Clickea</button>
-        </div>
+        </Fragment>
     )
 }
 
