@@ -1,9 +1,9 @@
 // importo el componente
 import Contador from "./components/Contador";
 import Eventos from "./components/Eventos";
+import ListasANDKeys from "./components/ListasANDKeys";
 import Parrafo from "./components/Parrafo";
 import Variables from "./components/Variables";
-
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
       <Eventos />
       {/* Pinto el componente con Hooks useState de contador */}
       <Contador />
+      {/* Pinto el componente de listas y keys */}
+      <ListasANDKeys />
     </div>
   );
 }
